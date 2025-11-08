@@ -1,0 +1,12 @@
+# Dependencies
+node_modules/
+
+# dotenv environment variables file
+.env
+.env.test
+.env.production
+.env.local
+
+# Build output
+dist/
+build/

@@ -1,0 +1,16 @@
+{
+  "name": "drone-orchestrator",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "dgram": "^1.0.1",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
