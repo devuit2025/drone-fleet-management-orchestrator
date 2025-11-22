@@ -1,0 +1,385 @@
+[2025-11-12T13:56:14.195Z] [INFO] [Main] Starting drone simulation  {"service":"drone-service"}
+[2025-11-12T13:56:14.201Z] [INFO] [DroneFacade] Drone connected  {"service":"drone-service"}
+[2025-11-12T13:56:14.204Z] [INFO] [DroneFacade] Drone takeoff executed  {"service":"drone-service"}
+[2025-11-12T13:56:14.204Z] [INFO] [DroneFacade] Drone disconnected  {"service":"drone-service"}
+[2025-11-12T13:56:24.992Z] [INFO] [Main] Starting drone simulation  {"service":"drone-service"}
+[2025-11-12T13:56:24.999Z] [INFO] [DroneFacade] Drone connected  {"service":"drone-service"}
+[2025-11-12T13:56:25.000Z] [INFO] [DroneFacade] Drone takeoff executed  {"service":"drone-service"}
+[2025-11-12T13:56:25.001Z] [INFO] [DroneFacade] Drone disconnected  {"service":"drone-service"}
+[2025-11-12 20:57:55] [info] [Main] Starting drone simulation
+  {
+    "service": "drone-service"
+  }
+[2025-11-12 20:57:55] [info] [DroneFacade] Drone connected
+  {
+    "service": "drone-service"
+  }
+[2025-11-12 20:57:55] [info] [DroneFacade] Drone takeoff executed
+  {
+    "service": "drone-service"
+  }
+[2025-11-12 20:57:55] [info] [DroneFacade] Drone disconnected
+  {
+    "service": "drone-service"
+  }
+[2025-11-12 20:58:48] [info] [Main] Starting drone simulation
+  {
+    "service": "drone-service"
+  }
+[2025-11-12 20:58:48] [info] [DroneFacade] Drone connected
+  {
+    "service": "drone-service"
+  }
+[2025-11-12 20:58:48] [info] [DroneFacade] Drone takeoff executed
+  {
+    "service": "drone-service"
+  }
+[2025-11-12 20:58:48] [info] [DroneFacade] Drone disconnected
+  {
+    "service": "drone-service"
+  }
+[2025-11-12 20:59:01] [info] [Main] Starting drone simulation
+  {
+    service: [32m'drone-service'[39m,
+    [[32mSymbol(level)[39m]: [32m'info'[39m,
+    [[32mSymbol(splat)[39m]: [
+      {
+        context: [32m'Main'[39m
+      }
+    ]
+  }
+[2025-11-12 20:59:01] [info] [DroneFacade] Drone connected
+  {
+    service: [32m'drone-service'[39m,
+    [[32mSymbol(level)[39m]: [32m'info'[39m,
+    [[32mSymbol(splat)[39m]: [
+      {
+        context: [32m'DroneFacade'[39m
+      }
+    ]
+  }
+[2025-11-12 20:59:01] [info] [DroneFacade] Drone takeoff executed
+  {
+    service: [32m'drone-service'[39m,
+    [[32mSymbol(level)[39m]: [32m'info'[39m,
+    [[32mSymbol(splat)[39m]: [
+      {
+        context: [32m'DroneFacade'[39m
+      }
+    ]
+  }
+[2025-11-12 20:59:01] [info] [DroneFacade] Drone disconnected
+  {
+    service: [32m'drone-service'[39m,
+    [[32mSymbol(level)[39m]: [32m'info'[39m,
+    [[32mSymbol(splat)[39m]: [
+      {
+        context: [32m'DroneFacade'[39m
+      }
+    ]
+  }
+[2025-11-12 21:00:50] [info] [Main] Starting drone simulation
+  {
+    service: [32m'drone-service'[39m
+  }
+[2025-11-12 21:00:50] [info] [DroneFacade] Drone connected
+  {
+    service: [32m'drone-service'[39m
+  }
+[2025-11-12 21:00:50] [info] [DroneFacade] Drone takeoff executed
+  {
+    service: [32m'drone-service'[39m
+  }
+[2025-11-12 21:00:50] [info] [DroneFacade] Drone disconnected
+  {
+    service: [32m'drone-service'[39m
+  }
+[2025-11-12 21:01:44] [info] [Main] Starting drone simulation
+  {
+    service: [32m'drone-service'[39m
+  }
+
+[2025-11-12 21:01:44] [info] [DroneFacade] Drone connected
+  {
+    service: [32m'drone-service'[39m
+  }
+
+[2025-11-12 21:01:44] [info] [DroneFacade] Drone takeoff executed
+  {
+    service: [32m'drone-service'[39m
+  }
+
+[2025-11-12 21:01:44] [info] [DroneFacade] Drone disconnected
+  {
+    service: [32m'drone-service'[39m
+  }
+
+[2025-11-12 21:04:44] [info] [Main] Starting drone simulation
+  {
+    service: [32m'drone-service'[39m
+  }
+
+[2025-11-12 21:04:44] [info] [SITLAdapter] Connecting to ArduPilot SITL...
+  {
+    service: [32m'drone-service'[39m
+  }
+
+[2025-11-12 21:04:44] [info] [SITLAdapter] UDP client bound, waiting for first telemetry...
+  {
+    service: [32m'drone-service'[39m
+  }
+
+[2025-11-12 21:04:49] [error] [SITLAdapter] Connection to SITL failed: no telemetry received
+  {
+    service: [32m'drone-service'[39m
+  }
+
+[2025-11-12 21:04:49] [error] [Main] Unexpected error in drone flow
+Error: SITL connection failed: no telemetry received
+    at Timeout._onTimeout (C:\LongNH\project\personal\drone-fleet\orchestrator\dist\drones\adapters\SITLAdapter.js:39:28)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+  {
+    service: [32m'drone-service'[39m
+  }
+
+[2025-11-12 21:09:31] [info] [Main] Starting drone simulation
+
+[2025-11-12 21:09:31] [info] [SITLAdapter] Connecting to ArduPilot SITL...
+
+[2025-11-12 21:09:31] [info] [SITLAdapter] UDP client bound, waiting for first telemetry...
+
+[2025-11-12 21:09:36] [error] [SITLAdapter] Connection to SITL failed: no telemetry received
+
+[2025-11-12 21:09:36] [error] [Main] Unexpected error in drone flow
+Error: SITL connection failed: no telemetry received
+    at Timeout._onTimeout (C:\LongNH\project\personal\drone-fleet\orchestrator\dist\drones\adapters\SITLAdapter.js:45:28)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+
+[2025-11-22 03:26:48] [info] [Main] Starting drone simulation
+
+[2025-11-22 03:26:48] [info] [SITLAdapter] Connecting to ArduPilot SITL...
+
+[2025-11-22 03:26:48] [info] [SITLAdapter] UDP client bound, waiting for first telemetry...
+
+[2025-11-22 03:26:53] [error] [SITLAdapter] Connection to SITL failed: no telemetry received
+
+[2025-11-22 03:26:53] [error] [Main] Unexpected error in drone flow
+Error: SITL connection failed: no telemetry received
+    at Timeout._onTimeout (/app/dist/drones/adapters/SITLAdapter.js:45:28)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+
+[2025-11-22 11:48:55] [info] [unknown] Orchestrator starting...
+
+[2025-11-22 11:48:55] [error] [unknown] Failed to refresh missions
+TypeError: Invalid URL
+    at new URL (node:internal/url:797:36)
+    at dispatchHttpRequest (C:\LongNH\project\personal\drone-fleet\orchestrator\node_modules\axios\dist\node\axios.cjs:3108:20)
+    at C:\LongNH\project\personal\drone-fleet\orchestrator\node_modules\axios\dist\node\axios.cjs:2949:5
+    at new Promise (<anonymous>)
+    at wrapAsync (C:\LongNH\project\personal\drone-fleet\orchestrator\node_modules\axios\dist\node\axios.cjs:2929:10)
+    at http (C:\LongNH\project\personal\drone-fleet\orchestrator\node_modules\axios\dist\node\axios.cjs:3014:10)
+    at Axios.dispatchRequest (C:\LongNH\project\personal\drone-fleet\orchestrator\node_modules\axios\dist\node\axios.cjs:4571:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Axios.request (C:\LongNH\project\personal\drone-fleet\orchestrator\node_modules\axios\dist\node\axios.cjs:4726:14)
+    at async MissionEndPoint.fetchAllMissions (C:\LongNH\project\personal\drone-fleet\orchestrator\dist\api\MissionEndPoint.js:7:26)
+    at Axios.request (C:\LongNH\project\personal\drone-fleet\orchestrator\node_modules\axios\dist\node\axios.cjs:4731:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MissionEndPoint.fetchAllMissions (C:\LongNH\project\personal\drone-fleet\orchestrator\dist\api\MissionEndPoint.js:7:26)
+    at async MissionService.getAllMissions (C:\LongNH\project\personal\drone-fleet\orchestrator\dist\mission\service\MissionService.js:11:29)
+    at async MissionFacade.refreshMissions (C:\LongNH\project\personal\drone-fleet\orchestrator\dist\core\MissionFacade.js:13:29)
+    at async main (C:\LongNH\project\personal\drone-fleet\orchestrator\dist\index.js:11:5)
+
+[2025-11-22 11:51:16] [info] [unknown] Orchestrator starting...
+
+[2025-11-22 11:51:16] [error] [unknown] Failed to refresh missions
+TypeError: Invalid URL
+    at new URL (node:internal/url:797:36)
+    at dispatchHttpRequest (C:\LongNH\project\personal\drone-fleet\orchestrator\node_modules\axios\lib\adapters\http.js:408:20)
+    at C:\LongNH\project\personal\drone-fleet\orchestrator\node_modules\axios\lib\adapters\http.js:249:5
+    at new Promise (<anonymous>)
+    at wrapAsync (C:\LongNH\project\personal\drone-fleet\orchestrator\node_modules\axios\lib\adapters\http.js:229:10)
+    at http (C:\LongNH\project\personal\drone-fleet\orchestrator\node_modules\axios\lib\adapters\http.js:314:10)
+    at Axios.dispatchRequest (C:\LongNH\project\personal\drone-fleet\orchestrator\node_modules\axios\lib\core\dispatchRequest.js:51:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Axios.request (C:\LongNH\project\personal\drone-fleet\orchestrator\node_modules\axios\lib\core\Axios.js:40:14)
+    at MissionEndPoint.fetchAllMissions (C:\LongNH\project\personal\drone-fleet\orchestrator\src\api\MissionEndPoint.ts:5:26)
+    at Axios.request (C:\LongNH\project\personal\drone-fleet\orchestrator\node_modules\axios\lib\core\Axios.js:45:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at MissionEndPoint.fetchAllMissions (C:\LongNH\project\personal\drone-fleet\orchestrator\src\api\MissionEndPoint.ts:5:26)
+    at MissionService.getAllMissions (C:\LongNH\project\personal\drone-fleet\orchestrator\src\mission\service\MissionService.ts:12:29)
+    at MissionFacade.refreshMissions (C:\LongNH\project\personal\drone-fleet\orchestrator\src\core\MissionFacade.ts:14:29)
+    at main (C:\LongNH\project\personal\drone-fleet\orchestrator\src\index.ts:12:5)
+
+[2025-11-22 11:51:34] [info] [unknown] Orchestrator starting...
+
+[2025-11-22 11:51:34] [error] [unknown] Failed to refresh missions
+TypeError: Invalid URL
+    at new URL (node:internal/url:797:36)
+    at dispatchHttpRequest (C:\LongNH\project\personal\drone-fleet\orchestrator\node_modules\axios\lib\adapters\http.js:408:20)
+    at C:\LongNH\project\personal\drone-fleet\orchestrator\node_modules\axios\lib\adapters\http.js:249:5
+    at new Promise (<anonymous>)
+    at wrapAsync (C:\LongNH\project\personal\drone-fleet\orchestrator\node_modules\axios\lib\adapters\http.js:229:10)
+    at http (C:\LongNH\project\personal\drone-fleet\orchestrator\node_modules\axios\lib\adapters\http.js:314:10)
+    at Axios.dispatchRequest (C:\LongNH\project\personal\drone-fleet\orchestrator\node_modules\axios\lib\core\dispatchRequest.js:51:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Axios.request (C:\LongNH\project\personal\drone-fleet\orchestrator\node_modules\axios\lib\core\Axios.js:40:14)
+    at MissionEndPoint.fetchAllMissions (C:\LongNH\project\personal\drone-fleet\orchestrator\src\api\MissionEndPoint.ts:5:26)
+    at Axios.request (C:\LongNH\project\personal\drone-fleet\orchestrator\node_modules\axios\lib\core\Axios.js:45:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at MissionEndPoint.fetchAllMissions (C:\LongNH\project\personal\drone-fleet\orchestrator\src\api\MissionEndPoint.ts:5:26)
+    at MissionService.getAllMissions (C:\LongNH\project\personal\drone-fleet\orchestrator\src\mission\service\MissionService.ts:12:29)
+    at MissionFacade.refreshMissions (C:\LongNH\project\personal\drone-fleet\orchestrator\src\core\MissionFacade.ts:14:29)
+    at main (C:\LongNH\project\personal\drone-fleet\orchestrator\src\index.ts:12:5)
+
+[2025-11-22 11:52:31] [info] [unknown] Orchestrator starting...
+
+[2025-11-22 11:52:31] [error] [unknown] Failed to refresh missions
+TypeError: Invalid URL
+    at new URL (node:internal/url:797:36)
+    at dispatchHttpRequest (C:\LongNH\project\personal\drone-fleet\orchestrator\node_modules\axios\lib\adapters\http.js:408:20)
+    at C:\LongNH\project\personal\drone-fleet\orchestrator\node_modules\axios\lib\adapters\http.js:249:5
+    at new Promise (<anonymous>)
+    at wrapAsync (C:\LongNH\project\personal\drone-fleet\orchestrator\node_modules\axios\lib\adapters\http.js:229:10)
+    at http (C:\LongNH\project\personal\drone-fleet\orchestrator\node_modules\axios\lib\adapters\http.js:314:10)
+    at Axios.dispatchRequest (C:\LongNH\project\personal\drone-fleet\orchestrator\node_modules\axios\lib\core\dispatchRequest.js:51:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Axios.request (C:\LongNH\project\personal\drone-fleet\orchestrator\node_modules\axios\lib\core\Axios.js:40:14)
+    at MissionEndPoint.fetchAllMissions (C:\LongNH\project\personal\drone-fleet\orchestrator\src\api\MissionEndPoint.ts:5:26)
+    at Axios.request (C:\LongNH\project\personal\drone-fleet\orchestrator\node_modules\axios\lib\core\Axios.js:45:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at MissionEndPoint.fetchAllMissions (C:\LongNH\project\personal\drone-fleet\orchestrator\src\api\MissionEndPoint.ts:5:26)
+    at MissionService.getAllMissions (C:\LongNH\project\personal\drone-fleet\orchestrator\src\mission\service\MissionService.ts:12:29)
+    at MissionFacade.refreshMissions (C:\LongNH\project\personal\drone-fleet\orchestrator\src\core\MissionFacade.ts:14:29)
+    at main (C:\LongNH\project\personal\drone-fleet\orchestrator\src\index.ts:12:5)
+
+[2025-11-22 11:52:36] [info] [unknown] Orchestrator starting...
+
+[2025-11-22 11:52:36] [error] [unknown] Failed to refresh missions
+AxiosError: Request failed with status code 404
+    at settle (C:\LongNH\project\personal\drone-fleet\orchestrator\node_modules\axios\lib\core\settle.js:19:12)
+    at IncomingMessage.handleStreamEnd (C:\LongNH\project\personal\drone-fleet\orchestrator\node_modules\axios\lib\adapters\http.js:793:11)
+    at IncomingMessage.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (C:\LongNH\project\personal\drone-fleet\orchestrator\node_modules\axios\lib\core\Axios.js:45:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at MissionEndPoint.fetchAllMissions (C:\LongNH\project\personal\drone-fleet\orchestrator\src\api\MissionEndPoint.ts:5:26)
+    at MissionService.getAllMissions (C:\LongNH\project\personal\drone-fleet\orchestrator\src\mission\service\MissionService.ts:12:29)
+    at MissionFacade.refreshMissions (C:\LongNH\project\personal\drone-fleet\orchestrator\src\core\MissionFacade.ts:14:29)
+    at main (C:\LongNH\project\personal\drone-fleet\orchestrator\src\index.ts:12:5)
+
+[2025-11-22 11:52:38] [info] [unknown] Orchestrator starting...
+
+[2025-11-22 11:52:38] [error] [unknown] Failed to refresh missions
+AxiosError: Request failed with status code 404
+    at settle (C:\LongNH\project\personal\drone-fleet\orchestrator\node_modules\axios\lib\core\settle.js:19:12)
+    at IncomingMessage.handleStreamEnd (C:\LongNH\project\personal\drone-fleet\orchestrator\node_modules\axios\lib\adapters\http.js:793:11)
+    at IncomingMessage.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (C:\LongNH\project\personal\drone-fleet\orchestrator\node_modules\axios\lib\core\Axios.js:45:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at MissionEndPoint.fetchAllMissions (C:\LongNH\project\personal\drone-fleet\orchestrator\src\api\MissionEndPoint.ts:5:26)
+    at MissionService.getAllMissions (C:\LongNH\project\personal\drone-fleet\orchestrator\src\mission\service\MissionService.ts:12:29)
+    at MissionFacade.refreshMissions (C:\LongNH\project\personal\drone-fleet\orchestrator\src\core\MissionFacade.ts:14:29)
+    at main (C:\LongNH\project\personal\drone-fleet\orchestrator\src\index.ts:12:5)
+
+[2025-11-22 11:54:14] [info] [unknown] Orchestrator starting...
+
+[2025-11-22 11:54:14] [error] [unknown] Failed to refresh missions
+AxiosError: Request failed with status code 404
+    at settle (C:\LongNH\project\personal\drone-fleet\orchestrator\node_modules\axios\lib\core\settle.js:19:12)
+    at IncomingMessage.handleStreamEnd (C:\LongNH\project\personal\drone-fleet\orchestrator\node_modules\axios\lib\adapters\http.js:793:11)
+    at IncomingMessage.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (C:\LongNH\project\personal\drone-fleet\orchestrator\node_modules\axios\lib\core\Axios.js:45:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at MissionEndPoint.fetchAllMissions (C:\LongNH\project\personal\drone-fleet\orchestrator\src\api\MissionEndPoint.ts:5:26)
+    at MissionService.getAllMissions (C:\LongNH\project\personal\drone-fleet\orchestrator\src\mission\service\MissionService.ts:12:29)
+    at MissionFacade.refreshMissions (C:\LongNH\project\personal\drone-fleet\orchestrator\src\core\MissionFacade.ts:14:29)
+    at main (C:\LongNH\project\personal\drone-fleet\orchestrator\src\index.ts:12:5)
+
+[2025-11-22 11:54:37] [info] [unknown] Orchestrator starting...
+
+[2025-11-22 11:54:37] [error] [unknown] Failed to refresh missions
+AxiosError: Request failed with status code 401
+    at settle (C:\LongNH\project\personal\drone-fleet\orchestrator\node_modules\axios\lib\core\settle.js:19:12)
+    at IncomingMessage.handleStreamEnd (C:\LongNH\project\personal\drone-fleet\orchestrator\node_modules\axios\lib\adapters\http.js:793:11)
+    at IncomingMessage.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (C:\LongNH\project\personal\drone-fleet\orchestrator\node_modules\axios\lib\core\Axios.js:45:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at MissionEndPoint.fetchAllMissions (C:\LongNH\project\personal\drone-fleet\orchestrator\src\api\MissionEndPoint.ts:5:26)
+    at MissionService.getAllMissions (C:\LongNH\project\personal\drone-fleet\orchestrator\src\mission\service\MissionService.ts:12:29)
+    at MissionFacade.refreshMissions (C:\LongNH\project\personal\drone-fleet\orchestrator\src\core\MissionFacade.ts:14:29)
+    at main (C:\LongNH\project\personal\drone-fleet\orchestrator\src\index.ts:12:5)
+
+[2025-11-22 11:54:40] [info] [unknown] Orchestrator starting...
+
+[2025-11-22 11:54:40] [error] [unknown] Failed to refresh missions
+AxiosError: Request failed with status code 401
+    at settle (C:\LongNH\project\personal\drone-fleet\orchestrator\node_modules\axios\lib\core\settle.js:19:12)
+    at IncomingMessage.handleStreamEnd (C:\LongNH\project\personal\drone-fleet\orchestrator\node_modules\axios\lib\adapters\http.js:793:11)
+    at IncomingMessage.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (C:\LongNH\project\personal\drone-fleet\orchestrator\node_modules\axios\lib\core\Axios.js:45:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at MissionEndPoint.fetchAllMissions (C:\LongNH\project\personal\drone-fleet\orchestrator\src\api\MissionEndPoint.ts:5:26)
+    at MissionService.getAllMissions (C:\LongNH\project\personal\drone-fleet\orchestrator\src\mission\service\MissionService.ts:12:29)
+    at MissionFacade.refreshMissions (C:\LongNH\project\personal\drone-fleet\orchestrator\src\core\MissionFacade.ts:14:29)
+    at main (C:\LongNH\project\personal\drone-fleet\orchestrator\src\index.ts:12:5)
+
+[2025-11-22 11:55:14] [info] [unknown] Orchestrator starting...
+
+[2025-11-22 11:55:14] [error] [unknown] Failed to refresh missions
+AxiosError: Request failed with status code 401
+    at settle (C:\LongNH\project\personal\drone-fleet\orchestrator\node_modules\axios\lib\core\settle.js:19:12)
+    at IncomingMessage.handleStreamEnd (C:\LongNH\project\personal\drone-fleet\orchestrator\node_modules\axios\lib\adapters\http.js:793:11)
+    at IncomingMessage.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (C:\LongNH\project\personal\drone-fleet\orchestrator\node_modules\axios\lib\core\Axios.js:45:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at MissionEndPoint.fetchAllMissions (C:\LongNH\project\personal\drone-fleet\orchestrator\src\api\MissionEndPoint.ts:5:26)
+    at MissionService.getAllMissions (C:\LongNH\project\personal\drone-fleet\orchestrator\src\mission\service\MissionService.ts:12:29)
+    at MissionFacade.refreshMissions (C:\LongNH\project\personal\drone-fleet\orchestrator\src\core\MissionFacade.ts:14:29)
+    at main (C:\LongNH\project\personal\drone-fleet\orchestrator\src\index.ts:17:5)
+
+[2025-11-22 11:55:15] [info] [unknown] Orchestrator starting...
+
+[2025-11-22 11:55:15] [error] [unknown] Failed to refresh missions
+AxiosError: Request failed with status code 401
+    at settle (C:\LongNH\project\personal\drone-fleet\orchestrator\node_modules\axios\lib\core\settle.js:19:12)
+    at IncomingMessage.handleStreamEnd (C:\LongNH\project\personal\drone-fleet\orchestrator\node_modules\axios\lib\adapters\http.js:793:11)
+    at IncomingMessage.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (C:\LongNH\project\personal\drone-fleet\orchestrator\node_modules\axios\lib\core\Axios.js:45:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at MissionEndPoint.fetchAllMissions (C:\LongNH\project\personal\drone-fleet\orchestrator\src\api\MissionEndPoint.ts:5:26)
+    at MissionService.getAllMissions (C:\LongNH\project\personal\drone-fleet\orchestrator\src\mission\service\MissionService.ts:12:29)
+    at MissionFacade.refreshMissions (C:\LongNH\project\personal\drone-fleet\orchestrator\src\core\MissionFacade.ts:14:29)
+    at main (C:\LongNH\project\personal\drone-fleet\orchestrator\src\index.ts:13:9)
+
+[2025-11-22 11:55:21] [info] [unknown] Orchestrator starting...
+
+[2025-11-22 11:55:21] [error] [unknown] Failed to refresh missions
+AxiosError: Request failed with status code 401
+    at settle (C:\LongNH\project\personal\drone-fleet\orchestrator\node_modules\axios\lib\core\settle.js:19:12)
+    at IncomingMessage.handleStreamEnd (C:\LongNH\project\personal\drone-fleet\orchestrator\node_modules\axios\lib\adapters\http.js:793:11)
+    at IncomingMessage.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (C:\LongNH\project\personal\drone-fleet\orchestrator\node_modules\axios\lib\core\Axios.js:45:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at MissionEndPoint.fetchAllMissions (C:\LongNH\project\personal\drone-fleet\orchestrator\src\api\MissionEndPoint.ts:5:26)
+    at MissionService.getAllMissions (C:\LongNH\project\personal\drone-fleet\orchestrator\src\mission\service\MissionService.ts:12:29)
+    at MissionFacade.refreshMissions (C:\LongNH\project\personal\drone-fleet\orchestrator\src\core\MissionFacade.ts:14:29)
+    at main (C:\LongNH\project\personal\drone-fleet\orchestrator\src\index.ts:13:9)
+

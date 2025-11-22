@@ -1,16 +1,40 @@
 {
-  "name": "drone-orchestrator",
-  "version": "1.0.0",
-  "main": "dist/index.js",
-  "scripts": {
-    "start": "node dist/index.js",
-    "build": "tsc"
-  },
-  "dependencies": {
-    "dgram": "^1.0.1",
-    "fs": "^0.0.1-security"
-  },
-  "devDependencies": {
-    "typescript": "^5.2.2"
-  }
+    "name": "drone-orchestrator",
+    "version": "1.0.0",
+    "main": "dist/index.js",
+    "bin": {
+        "orchestrator-cli": "dist/cli/index.js"
+    },
+    "scripts": {
+        "dev": "ts-node-dev --respawn src/index.ts",
+        "start": "node dist/index.js",
+        "build": "tsc",
+        "lint": "eslint \"{src,apps,libs,test}/**/*.{ts,tsx,js}\" --max-warnings=0",
+        "lint:fix": "eslint \"{src,apps,libs,test}/**/*.{ts,tsx,js}\" --fix",
+        "format": "prettier --write \"{src,apps,libs,test}/**/*.{ts,tsx,js,json,md}\""
+    },
+    "dependencies": {
+        "@types/node": "^24.10.1",
+        "axios": "^1.13.2",
+        "commander": "^14.0.2",
+        "dgram": "^1.0.1",
+        "fs": "^0.0.1-security",
+        "net": "^1.0.2",
+        "node-mavlink": "^2.3.0",
+        "winston": "^3.18.3"
+    },
+    "devDependencies": {
+        "@types/winston": "^2.4.4",
+        "@typescript-eslint/eslint-plugin": "^8.46.4",
+        "@typescript-eslint/parser": "^8.46.4",
+        "eslint": "^9.39.1",
+        "eslint-config-prettier": "^10.1.8",
+        "eslint-import-resolver-typescript": "^4.4.4",
+        "eslint-plugin-import": "^2.32.0",
+        "eslint-plugin-prettier": "^5.5.4",
+        "eslint-plugin-sonarjs": "^3.0.5",
+        "prettier": "^3.6.2",
+        "ts-node-dev": "^2.0.0",
+        "typescript": "^5.2.2"
+    }
 }
