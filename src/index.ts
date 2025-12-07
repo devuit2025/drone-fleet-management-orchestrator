@@ -1,27 +1,19 @@
-import { MissionFacade } from './core/MissionFacade';
-import { Log } from './logger/Log';
+// index.ts
+import { TelemetryConsumer } from "./telemetry/TelemetryConsumer";
+import { publishTelemetryGlobalPosition } from 'broker-sdk';
 
-async function main() {
-    // Initialize the mission subsystem
-    const missionFacade = new MissionFacade();
-    console.log(process.env.NODE_ENV)
 
-    Log.info('Orchestrator starting...');
+const telemetry = new TelemetryConsumer();
 
-    try {
-        // Fetch missions from the API
-        await missionFacade.refreshMissions();
-        
-    } catch (error) {
-        console.log(error)
-    }
+// This matches your sim_vehicle.py command:
+telemetry.registerSimVehicle("drone1", 14555); 
 
-    // Access all missions in memory
-    const missions = missionFacade.getAllMissions();
-    console.log('Fetched Missions:', missions);
-}
 
-main().catch(err => {
-    Log.error('Orchestrator failed to start', { error: err });
-    process.exit(1);
-});
+// testing
+// const telemetry = {
+//     droneId: '1',
+//     timestamp: Date.now(),
+//     position: { lat: 10.123, lon: 106.123, alt: 50 },
+//     battery: 87,
+// };
+// publishTelemetryGlobalPosition('drone1', telemetry)

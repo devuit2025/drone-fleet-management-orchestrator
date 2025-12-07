@@ -9,16 +9,7 @@ export class MissionFacade {
         this.service = new MissionService();
     }
 
-    async refreshMissions() {
-        try {
-            this.missions = await this.service.getAllMissions();
-            Log.info(`Fetched ${this.missions.length} missions from API`);
-        } catch (err: any) {
-            Log.error('Failed to refresh missions', { error: err });
-        }
-    }
-
     getAllMissions() {
-        return this.missions;
+        return this.service.getAllMissions();
     }
 }

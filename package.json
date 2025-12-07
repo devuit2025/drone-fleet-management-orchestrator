@@ -2,11 +2,8 @@
     "name": "drone-orchestrator",
     "version": "1.0.0",
     "main": "dist/index.js",
-    "bin": {
-        "orchestrator-cli": "dist/cli/index.js"
-    },
     "scripts": {
-        "dev": "ts-node-dev --respawn src/index.ts",
+        "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
         "start": "node dist/index.js",
         "build": "tsc",
         "lint": "eslint \"{src,apps,libs,test}/**/*.{ts,tsx,js}\" --max-warnings=0",
@@ -14,6 +11,7 @@
         "format": "prettier --write \"{src,apps,libs,test}/**/*.{ts,tsx,js,json,md}\""
     },
     "dependencies": {
+        "broker-sdk": "file:../broker-sdk",
         "@types/node": "^24.10.1",
         "axios": "^1.13.2",
         "commander": "^14.0.2",
