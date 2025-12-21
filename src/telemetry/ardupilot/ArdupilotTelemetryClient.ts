@@ -1,16 +1,36 @@
 // telemetry/ardupilot/ArdupilotTelemetryClient.ts
-import { ArdupilotTelemetryAdapter } from "./adapters/ArdupilotTelemetryAdapter";
-import { publishTelemetryGlobalPosition } from 'broker-sdk';
+import { ArdupilotTelemetryAdapter } from './adapters/ArdupilotTelemetryAdapter';
+import { DroneStateStore } from '../state/DroneStateStore';
+import { TelemetryReducer } from '../reducer/TelemetryReducer';
+import { TelemetryPublisher } from '../publisher/TelemetryPublisher';
 
 export class ArdupilotTelemetryClient {
-  constructor(private droneId: string, private port: number) {}
+    private stateStore = new DroneStateStore();
+    private reducer = new TelemetryReducer(this.stateStore);
+    private publisher = new TelemetryPublisher();
 
-  start() {
-    const adapter = new ArdupilotTelemetryAdapter(this.port);
+    constructor(
+        private droneId: string,
+        private port: number,
+    ) {}
 
-    adapter.start((telemetry) => {
-        publishTelemetryGlobalPosition(this.droneId, telemetry)
-      console.log(`[${this.droneId}]`, telemetry);
-    });
-  }
+    start() {
+        const adapter = new ArdupilotTelemetryAdapter(this.port);
+
+        adapter.start(normalized => {
+            if (!normalized) {
+                return;
+            }
+
+            const reduced = this.reducer.reduce({
+                drone_id: this.droneId,
+                timestamp: Date.now(),
+                ...normalized,
+            });
+
+            if (reduced) {
+                this.publisher.publish(reduced);
+            }
+        });
+    }
 }

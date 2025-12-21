@@ -11,12 +11,13 @@
         "format": "prettier --write \"{src,apps,libs,test}/**/*.{ts,tsx,js,json,md}\""
     },
     "dependencies": {
-        "broker-sdk": "file:../broker-sdk",
         "@types/node": "^24.10.1",
         "axios": "^1.13.2",
+        "broker-sdk": "file:../broker-sdk",
         "commander": "^14.0.2",
         "dgram": "^1.0.1",
         "fs": "^0.0.1-security",
+        "lodash": "^4.17.21",
         "net": "^1.0.2",
         "node-mavlink": "^2.3.0",
         "winston": "^3.18.3"
